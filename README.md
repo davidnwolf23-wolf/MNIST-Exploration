@@ -1,17 +1,19 @@
 # Machine Learning Methods for Complex Systems
 
-This repository contains selected coursework from AMATH 563: Inferring Structure of Complex Systems at the University of Washington. The notebook demonstrates a PCA-based classification workflow using the MNIST handwritten digit dataset.
+This repository contains two notebooks investgating the MNIST handwritten digit dataset.
 
 ## Contents
 
-- `MNIST_classification.ipynb`: Applies principal component analysis for dimensionality reduction before building and evaluating a classification model.
+- `MNIST_classification.ipynb`: Applies principal component analysis for dimensionality reduction before building and evaluating a classification model. This is a selected work sample from AMATH 563: Inferring Structure of Complex Systems at the University of Washington.
+- 'MNIST_NN.ipynb': Applies a deep neural network and a convolutional neural network to the dataset to classify images.
 - `requirements.txt`: Lists the Python packages used in the notebook.
 - `data/`: Placeholder folder for local dataset files.
 
 ## Methods
 
 - Principal component analysis
-- Dimensionality reduction
+- Deep learning
+- Convolutional Neural Networks
 - Classification
 - Model evaluation
 - Data visualization
@@ -23,6 +25,9 @@ This repository contains selected coursework from AMATH 563: Inferring Structure
 - SciPy
 - Matplotlib
 - scikit-learn
+- TensorFlow
+- Keras
+- Seaborn
 
 ## Data
 
